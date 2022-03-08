@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #002265;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #002265;
+    background-image: url(/images/background.svg);
+    min-height: 100%;
+    min-width: 100%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h2 strong {
+    font-weight: 600;
+}
+
+/* NAVEGAÇÃO */
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 135px;
+}
+
+.header-top h1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 0.25rem;
+}
+
+.header-top li {
+    padding: 45px;
+    display: inline-block;
+}
+
+
+.container-nav {
+    overflow: hidden;
+}
+
+.container-nav a {
+    color: #212121;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-button {
+    background-color: #4A6DC9;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-button p {
+    background-color: #4A6DC9;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.nav-button:hover {
+    text-decoration: none;
+}
+
+/******************************************** HERO ***********************************************/
+
+.hero {
+    margin: 100px 130px;
+}
+
+.split {
+    display:flex;
+    justify-content: space-around;
+}
+
+.hero a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.hero a:hover {
+    text-decoration: underline;
+}
+
+.split img {
+    min-width: 100%;
+    min-height: 100%;
+}
+.resumo-hero {
+    color: #082032;
+    font-size: 1.45rem
+}
+
+.oi-hero {
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.principal-hero {
+    font-size: 3.1rem;
+    font-weight: 700;
+}
+
+/****************************************** CONHECIMENTOS *****************************************/
+.section-conhecimentos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+
+.section-conhecimentos div {
+    display: inline-block;
+    margin: 2.5rem;
+}
+
+.section-conhecimentos img {
+    max-width: 225px;
+    max-height: 160px;
+    margin: 20px 60px;
+    align-self: center;
+}
+
+.section-conhecimentos h3 {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    letter-spacing: 5.5%;
+    align-self: center;
+}
+
+.section-conhecimentos p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    letter-spacing: 5.5%;
+}
+
+
+.bloco-front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 21.9rem;
+    height: 17.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 6px 30px 1px rgba(0, 0, 0, 0.25);
+}
+
+.bloco-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 21.9rem;
+    height: 17.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 6px 30px 1px rgba(0, 0, 0, 0.25);
+}
+
+.bloco-ux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 21.9rem;
+    height: 17.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 6px 30px 1px rgba(0, 0, 0, 0.25);
+}
+
+/*********************************************** CV ****************************************************/
+
+.curriculo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.currilo div {
+    display: inline-block;
+}
+
+.curriculo a {
+    margin: 2.2rem;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    background-color: #608AF5;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/********************************************** CONTATO ************************************************/
+.contato {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 170px;
+}
+
+.contato div {
+    display: inline-block;
+    margin: 60px;
+}
+
+.contato-git {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.contato-ig {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.contato-email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.contato-linkedin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.contato a {
+    color: #3F3D56;
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+ /********************************************** FOOTER **************************************************/
+footer img {
+    min-height: 100%;
+    min-width: 100%;
+}
